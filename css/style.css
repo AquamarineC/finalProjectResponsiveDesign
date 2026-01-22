@@ -70,3 +70,19 @@ div{
         }
 
 }
+
+@media (prefers-reduced-motion: reduce){
+    * {
+        scroll-behavior: none;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+
+    figure{
+        background-color: #111111;
+        color: rgb(219, 211, 77);
+        border-color: #111111;
+    }
+    
+}
